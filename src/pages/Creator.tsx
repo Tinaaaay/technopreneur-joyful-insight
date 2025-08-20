@@ -71,9 +71,18 @@ const Creator = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <div className="space-y-4">
-                <h2 className="text-4xl font-bold">Kristine Joy Nisurtado</h2>
-                <p className="text-xl text-primary font-medium">Creator & Educational Researcher</p>
+              <div className="flex flex-col items-center lg:items-start space-y-6">
+                <div className="w-48 h-48 rounded-full overflow-hidden shadow-large">
+                  <img 
+                    src="/lovable-uploads/03b42334-cc01-471f-a37c-35f804d9e0b2.png" 
+                    alt="Kristine Joy Nisurtado - Creator and Educational Researcher"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="space-y-4 text-center lg:text-left">
+                  <h2 className="text-4xl font-bold">Kristine Joy Nisurtado</h2>
+                  <p className="text-xl text-primary font-medium">Creator & Educational Researcher</p>
+                </div>
               </div>
               
               <div className="space-y-4 text-lg leading-relaxed">
